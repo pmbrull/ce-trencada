@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://pmbrull.github.io/ce-trencada/"
+baseURL = "https://ce-trencada.com"
 languageCode = "en-us"
 title = "Liva | Personal blog template"
 theme = "liva"
