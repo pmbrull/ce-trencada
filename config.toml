@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://ce-trencada.com"
-languageCode = "en-us"
-title = "Liva | Personal blog template"
+languageCode = "ca"
+title = "ce-trencada"
 theme = "liva"
 summaryLength = "10"
 paginate = 6
@@ -45,34 +45,34 @@ disqusShortname = ""
 
   # main menu
   [[menu.main]]
-  name = "About"
-  URL = "about"
+  name = "Qui som"
+  URL = "qui-som"
   weight = 1
 
   [[menu.main]]
-  name = "Post"
-  URL = "blog"
+  name = "Entrades"
+  URL = "entrades"
   weight = 2
 
   [[menu.main]]
-  name = "Contact"
-  URL = "contact"
+  name = "Contacta"
+  URL = "contacta"
   weight = 3
 
   # footer menu
   [[menu.footer]]
-  name = "About"
-  URL = "about"
+  name = "Qui som"
+  URL = "qui-som"
   weight = 1
 
   [[menu.footer]]
-  name = "Post"
-  URL = "blog"
+  name = "Entrades"
+  URL = "entrades"
   weight = 2
 
   [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
+  name = "Contacta"
+  URL = "contacta"
   weight = 3
 
 
@@ -81,16 +81,16 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Núvol, ciència de dades, estratègia, empresa, big data, devops"
+author = "pmbrull"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+# mobile = "0124857985320"
+email = "ce-trencada@gmail.com"
+location = "Figueres, Catalunya"
 # copyright
-copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved |"
+copyright = "copyright &copy; 2021 ce-trencada - Tots els drets reservats"
 
   # Preloader
   [params.preloader]
@@ -104,9 +104,13 @@ copyright = "| copyright &copy; 2020 [Themefisher](https://themefisher.com) All 
 ############################ news letter ########################
 [params.newsletter]
 enable = true
-title = "Join Our Newsletter"
+title = "Apunta't al butlletí!"
 content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
 
+############################ Gallery ########################
+# This appears with static/images/gallery in about
+[params.gallery]
+enable = false
 
 # cookies
 [params.cookies]
