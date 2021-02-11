@@ -3,10 +3,10 @@ name: github pages
 on:
   push:
     branches:
-      - master
+      - main # Set a branch to deploy
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
@@ -15,9 +15,10 @@ jobs:
         uses: peaceiris/actions-hugo@latest
         with:
           hugo-version: "latest"
+          # extended: true
 
       - name: Build
-        run: HUGO_ENV=production hugo --gc --minify
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@latest
